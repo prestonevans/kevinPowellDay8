@@ -1,0 +1,95 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.3rem;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+body > .container:nth-child(3) {
+  background-color: #136C72;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0 1rem;
+  width: 80%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+.row h2 {
+  color: #87629A;
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: space-between;
+}
+body .container:nth-child(3) {
+  background-color: #136C72;
+}
+
+.row-2 {
+  width: 80%;
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0 1rem;
+}
+.row-2 h2, .row-2 p {
+  color: #fff;
+}
+
+.row-2 .col {
+  flex: 1 40%;
+  min-width: 18.25rem;
+}
+
+.row .col {
+  /* these are now flex items */
+  flex: 1 18.25rem;
+  max-width: 30rem;
+}
+
+.hero {
+  padding: 100px 0;
+  background-color: #23424A;
+  color: #FFF;
+}
+
+.hero__text {
+  width: 60%;
+}
+
+.hero p {
+  margin-bottom: 3em;
+}
+
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #23424A;
+  font-weight: 900;
+  background-color: #38CFD9;
+  padding: 0.75em 2em;
+  border-radius: 100px;
+}
+
+.btn:hover,
+.btn:focus {
+  opacity: 0.75;
+}
+
+/*# sourceMappingURL=style.css.map */
