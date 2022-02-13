@@ -52,8 +52,7 @@ body .container:nth-child(3) {
 }
 
 .row-2 .col {
-  flex: 1 40%;
-  min-width: 18.25rem;
+  flex: 1 18.25rem;
 }
 
 .row .col {
